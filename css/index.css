@@ -1,13 +1,76 @@
+* {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: black;
+    background-image: linear-gradient(to right, black 50%, gray);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfoliobanner {
+    text-align: center;
+    user-select: none;
+    margin-top: 20px;
+}
+
+.portfoliobanner h1 {
+    background-image: linear-gradient(to right,rgb(255, 0, 0),blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proparent {
+    display: flex;
+    justify-content: center;
 }
 
 .ResponsiveProject {
+    width: 40%;
+    height: 50px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, cyan, rgb(25, 0, 255));
     display: flex;
-    color: red;
+    color: black;
     justify-content: center;
     text-decoration: none;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.ResponsiveProject:hover {
+    width: 45%;
+    height: 60px;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.htmlcssproject {
+    width: 40%;
+    height: 50px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, cyan, rgb(25, 0, 255));
+    display: flex;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.htmlcssproject:hover {
+    width: 45%;
+    height: 60px;
+    font-size: 22px;
+    line-height: 60px;
 }
